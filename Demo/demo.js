@@ -1,4 +1,4 @@
-
+window.addEvent('domready', function() {
 	// Example #1
 	new Tree('tree', {
 
@@ -47,3 +47,4 @@
 	// Example #3
 	new Tree('both');
 	new Collapse('both');
+});
